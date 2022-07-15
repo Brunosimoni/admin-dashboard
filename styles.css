@@ -340,6 +340,32 @@ hr {
     padding: 30px 20px 40px 20px;
     max-height: 100%;
 }
+.clickable:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.07);
+}
+
+ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    -webkit-transform: scale(1.07);
+}
+
+.project-heading:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.01);
+    text-decoration: underline;
+}
+
+.announcement-heading:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.01);
+}
+
+.trending-profile:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.03);
+}
 
 /* CHANGE THE LAYOUT OF MAIN TO 2 FLEXBOX LAYOUTS
 ONE FLEXBOX LAYOUT FOR PROJECTS AND ONE FOR ANNOUNCEMENTS
