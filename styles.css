@@ -118,6 +118,7 @@
 
 .profile-pic-small {
     width: 40px;
+    height: 40px;
     border-radius: 30px;
     border: 1px solid rgb(197, 197, 197);
 }
@@ -306,5 +307,14 @@ hr {
 }
 
 .trending-project {
-    font-size: 11px;
+    font-size: 12px;
+    color: rgb(88, 88, 88);
+}
+
+.trending-container {
+    background-color: white;
+    box-shadow: 0px 2px 3px rgb(175, 175, 175);
+    padding: 20px 20px 6px 25px;
+    border-radius: 5px;
+    min-width: 231px;
 }
